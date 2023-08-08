@@ -1,0 +1,33 @@
+Written Part of CEP-2:
+
+Step 1: Create a Visual Studio Windows Console Project
+
+Open Visual Studio.
+Click on "Create a new project."
+Choose "Console App (.NET Core)" template.
+Provide a suitable name for your project and choose a location to save it.
+Click "Create."
+
+Step 2: Create Teacher Class
+
+Right-click on your project in the Solution Explorer.
+Choose "Add" -> "Class."
+Name the class "Teacher.cs."
+In Teacher.cs, define the Teacher class with properties for ID, Name, Class, and Section:
+
+Step 3: Create Data Management Class
+
+Right-click on your project in the Solution Explorer.
+Choose "Add" -> "Class."
+Name the class "TeacherDataManager.cs."
+In TeacherDataManager.cs, define the TeacherDataManager class responsible for managing teacher records using text files:
+
+Step 4: Implement Console UI.
+
+Explanation:
+
+1.The Teacher class is defined to hold the properties of a teacher.
+2.The TeacherDataManager class handles the file operations and data management.
+3.The Program class contains the console-based user interface for adding and listing teachers.
+4.The program continuously prompts the user for input until the user chooses to exit.
+5.Remember to add proper error handling and validation to ensure the robustness of your program. This is a basic outline to get you started on creating a text-file based system for storing and updating teacher records in a Visual Studio Windows Console Project using C#.
